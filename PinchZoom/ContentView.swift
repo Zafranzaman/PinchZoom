@@ -36,7 +36,9 @@ struct ContentView: View {
   var body: some View {
     NavigationView {
       ZStack {
-        Color.clear
+          Color.orange.opacity(0.5)
+          
+              .cornerRadius(20)
         
         // MARK: - PAGE IMAGE
         Image(currentPage())
